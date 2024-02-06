@@ -101,6 +101,62 @@ sosa_Label.grid(row=4, column=0, pady=7, padx=7)
 sosa_entry = Entry(drinks_frame, font=("times new roman", 15, "bold"), width=8, bd=5)
 sosa_entry.grid(row=4, column=1, pady=7, padx=7)
 
+meat_frame = LabelFrame(products_frame, text="Meat", font=("times new roman,", 15, "bold"), fg="gold"
+                        , bd=8, relief=GROOVE, bg="gray25")
+meat_frame.grid(row=0, column=2, padx=5, pady=5)
+
+beef_label = Label(meat_frame, text="Beef", font=("times new roman,", 10, "bold"), bg="gray25"
+                   , fg="white")
+beef_label.grid(row=0, column=0, pady=7, padx=7)
+beef_entry = Entry(meat_frame, font=("times new roman", 15, "bold"), width=8, bd=5)
+beef_entry.grid(row=0, column=1, pady=7, padx=7)
+
+chicken_label = Label(meat_frame, text="chicken", font=("times new roman,", 10, "bold"), bg="gray25"
+                      , fg="white")
+chicken_label.grid(row=1, column=0, pady=7, padx=7)
+chicken_entry = Entry(meat_frame, font=("times new roman", 15, "bold"), width=8, bd=5)
+chicken_entry.grid(row=1, column=1, pady=7, padx=7)
+
+pork_label = Label(meat_frame, text="pork chops", font=("times new roman,", 10, "bold"), bg="gray25"
+                   , fg="white")
+pork_label.grid(row=2, column=0, pady=7, padx=7)
+pork_entry = Entry(meat_frame, font=("times new roman", 15, "bold"), width=8, bd=5)
+pork_entry.grid(row=2, column=1, pady=7, padx=7)
+
+meatballs_label = Label(meat_frame, text="Meatballs", font=("times new roman,", 10, "bold"), bg="gray25"
+                        , fg="white")
+meatballs_label.grid(row=3, column=0, pady=7, padx=7)
+meatballs_entry = Entry(meat_frame, font=("times new roman", 15, "bold"), width=8, bd=5)
+meatballs_entry.grid(row=3, column=1, pady=7, padx=7)
+
+sausage_Label = Label(meat_frame, text="Sausage", font=("times new roman,", 10, "bold"), bg="gray25"
+                      , fg="white")
+sausage_Label.grid(row=4, column=0, pady=7, padx=7)
+sausage_entry = Entry(meat_frame, font=("times new roman", 15, "bold"), width=8, bd=5)
+sausage_entry.grid(row=4, column=1, pady=7, padx=7)
+
+pasteries_frame = LabelFrame(products_frame, text="Pastries", font=("times new roman,", 15, "bold"), fg="gold"
+                             , bd=8, relief=GROOVE, bg="gray25")
+pasteries_frame.grid(row=0, column=3, padx=5, pady=5)
+
+meatpie_label = Label(pasteries_frame, text="Meat_pie", font=("times new roman,", 10, "bold"), bg="gray25"
+                      , fg="white")
+meatpie_label.grid(row=0, column=0, pady=7, padx=7)
+meatpie_entry = Entry(pasteries_frame, font=("times new roman", 15, "bold"), width=8, bd=5)
+meatpie_entry.grid(row=0, column=1, pady=7, padx=7)
+
+shawarma_label = Label(pasteries_frame, text="shawarma", font=("times new roman,", 10, "bold"), bg="gray25"
+                       , fg="white")
+shawarma_label.grid(row=1, column=0, pady=7, padx=7)
+shawarma_entry = Entry(pasteries_frame, font=("times new roman", 15, "bold"), width=8, bd=5)
+shawarma_entry.grid(row=1, column=1, pady=7, padx=7)
+
+spring_rolls_label = Label(pasteries_frame, text="Spring rolls", font=("times new roman,", 10, "bold"), bg="gray25"
+                           , fg="white")
+spring_rolls_label.grid(row=2, column=0, pady=7, padx=7)
+spring_rolls_entry = Entry(pasteries_frame, font=("times new roman", 15, "bold"), width=8, bd=5)
+spring_rolls_entry.grid(row=2, column=1, pady=7, padx=7)
+
 
 
 
