@@ -1,0 +1,16 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="tkinter.tk.Tk" />
+          <option value="tkinter.tk.StringVar" />
+          <option value="tkinter.tk.Label" />
+          <option value="tkinter.tk.Entry" />
+          <option value="tkinter.tk.Button" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
