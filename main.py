@@ -226,6 +226,74 @@ scroll_bar.pack(side=RIGHT, fill=Y)
 Text_area = Text(bill_frame, height=15, width=55, yscrollcommand=scroll_bar.set)
 Text_area.pack()
 
+bill_menu_frame = LabelFrame(windows, text="Total bill menu", font=("times new roman,", 15, "bold"), fg="gold"
+                         , bd=8, relief=GROOVE, bg="gray25")
+bill_menu_frame.pack(fill=X)
+
+
+food_price_label = Label(bill_menu_frame,text="food price",font=("times new roman,", 10, "bold"), bg="gray25"
+                          , fg="white")
+food_price_label.grid(row=0, column=0, pady=7, padx=7)
+food_price_entry = Entry(bill_menu_frame, font=("times new roman", 15, "bold"), width=8, bd=5)
+food_price_entry.grid(row=0, column=1, pady=7, padx=7)
+
+drink_price_label = Label(bill_menu_frame, text="drink price", font=("times new roman,", 10, "bold"), bg="gray25"
+                         , fg="white")
+drink_price_label.grid(row=1, column=0, pady=7, padx=7)
+drink_price_entry = Entry(bill_menu_frame, font=("times new roman", 15, "bold"), width=8, bd=5)
+drink_price_entry.grid(row=1, column=1, pady=7, padx=7)
+
+meat_price_label = Label(bill_menu_frame, text="meat price", font=("times new roman,", 10, "bold"), bg="gray25"
+                           , fg="white")
+meat_price_label.grid(row=0, column=2, pady=7, padx=7)
+meat_price_entry = Entry(bill_menu_frame, font=("times new roman", 15, "bold"), width=8, bd=5)
+meat_price_entry.grid(row=0, column=3, pady=7, padx=7)
+
+pastries_price_label= Label(bill_menu_frame, text="pastries price", font=("times new roman,", 10, "bold"), bg="gray25"
+                        , fg="white")
+pastries_price_label.grid(row=1, column=2, pady=7, padx=7)
+pastries_price_entry = Entry(bill_menu_frame, font=("times new roman", 15, "bold"), width=8, bd=5)
+pastries_price_entry.grid(row=1, column=3, pady=7, padx=7)
+
+
+
+
+food_tax_label = Label(bill_menu_frame,text="food tax",font=("times new roman,", 10, "bold"), bg="gray25"
+                          , fg="white")
+food_tax_label.grid(row=0, column=4, pady=7, padx=7)
+food_tax_entry = Entry(bill_menu_frame, font=("times new roman", 15, "bold"), width=8, bd=5)
+food_tax_entry.grid(row=0, column=5, pady=7, padx=7)
+
+drink_tax_label = Label(bill_menu_frame, text="drink tax", font=("times new roman,", 10, "bold"), bg="gray25"
+                         , fg="white")
+drink_tax_label.grid(row=1, column=4, pady=7, padx=7)
+drink_tax_entry = Entry(bill_menu_frame, font=("times new roman", 15, "bold"), width=8, bd=5)
+drink_tax_entry.grid(row=1, column=5, pady=7, padx=7)
+
+meat_tax_label = Label(bill_menu_frame, text="meat tax", font=("times new roman,", 10, "bold"), bg="gray25"
+                           , fg="white")
+meat_tax_label.grid(row=0, column=6, pady=7, padx=7)
+meat_tax_entry = Entry(bill_menu_frame, font=("times new roman", 15, "bold"), width=8, bd=5)
+meat_tax_entry.grid(row=0, column=7, pady=7, padx=7)
+
+pastries_tax_label= Label(bill_menu_frame, text="pastries tax", font=("times new roman,", 10, "bold"), bg="gray25"
+                        , fg="white")
+pastries_tax_label.grid(row=1, column=6, pady=7, padx=7)
+pastries_tax_entry = Entry(bill_menu_frame, font=("times new roman", 15, "bold"), width=8, bd=5)
+pastries_tax_entry.grid(row=1, column=7, pady=7, padx=7)
+
+
+button_frame = Frame(bill_menu_frame,bd=10,relief=GROOVE)
+button_frame.grid(row=0,column=8)
+
+total_button = Button(button_frame, text="TOTAL..", font=("times new roman",15,"bold"),bg="gray25",fg="white",bd=10
+                      ,width=12,pady=10,command=total)
+total_button.grid(row=0,column=0)
+
+bill_button = Button(button_frame, text="PRINT BILL..", font=("times new roman",15,"bold"),bg="gray25",fg="white",bd=10
+                      ,width=12,pady=10)
+bill_button.grid(row=0,column=1)
+
 
 
 
