@@ -157,6 +157,76 @@ spring_rolls_label.grid(row=2, column=0, pady=7, padx=7)
 spring_rolls_entry = Entry(pasteries_frame, font=("times new roman", 15, "bold"), width=8, bd=5)
 spring_rolls_entry.grid(row=2, column=1, pady=7, padx=7)
 
+Brownies_label = Label(pasteries_frame, text="Brownies", font=("times new roman,", 10, "bold"), bg="gray25"
+                       , fg="white")
+Brownies_label.grid(row=3, column=0, pady=7, padx=7)
+Brownies_entry = Entry(pasteries_frame, font=("times new roman", 15, "bold"), width=8, bd=5)
+Brownies_entry.grid(row=3, column=1, pady=7, padx=7)
+
+Burger_Label = Label(pasteries_frame, text="Burger", font=("times new roman,", 10, "bold"), bg="gray25"
+                     , fg="white")
+Burger_Label.grid(row=4, column=0, pady=7, padx=7)
+Burger_entry = Entry(pasteries_frame, font=("times new roman", 15, "bold"), width=8, bd=5)
+Burger_entry.grid(row=4, column=1, pady=7, padx=7)
+
+bill_frame = Frame(products_frame)
+bill_frame.grid(row=0, column=4, padx=5, pady=5)
+
+bill_area_label = Label(bill_frame, text="Label Area", font=("times new roman", 15, "bold"), bd=8, relief=GROOVE)
+bill_area_label.pack(fill=X)
+scroll_bar = Scrollbar(bill_frame,orient=VERTICAL)
+scroll_bar.pack(side=RIGHT, fill=Y)
+
+Text_area = Text(bill_frame, height=15, width=55, yscrollcommand=scroll_bar.set)
+Text_area.pack()
+
+
+pasteries_frame = LabelFrame(products_frame, text="Pastries", font=("times new roman,", 15, "bold"), fg="gold"
+                             , bd=8, relief=GROOVE, bg="gray25")
+pasteries_frame.grid(row=0, column=3, padx=5, pady=5)
+
+meatpie_label = Label(pasteries_frame, text="Meat_pie", font=("times new roman,", 10, "bold"), bg="gray25"
+                      , fg="white")
+meatpie_label.grid(row=0, column=0, pady=7, padx=7)
+meatpie_entry = Entry(pasteries_frame, font=("times new roman", 15, "bold"), width=8, bd=5)
+meatpie_entry.grid(row=0, column=1, pady=7, padx=7)
+
+shawarma_label = Label(pasteries_frame, text="shawarma", font=("times new roman,", 10, "bold"), bg="gray25"
+                       , fg="white")
+shawarma_label.grid(row=1, column=0, pady=7, padx=7)
+shawarma_entry = Entry(pasteries_frame, font=("times new roman", 15, "bold"), width=8, bd=5)
+shawarma_entry.grid(row=1, column=1, pady=7, padx=7)
+
+spring_rolls_label = Label(pasteries_frame, text="Spring rolls", font=("times new roman,", 10, "bold"), bg="gray25"
+                           , fg="white")
+spring_rolls_label.grid(row=2, column=0, pady=7, padx=7)
+spring_rolls_entry = Entry(pasteries_frame, font=("times new roman", 15, "bold"), width=8, bd=5)
+spring_rolls_entry.grid(row=2, column=1, pady=7, padx=7)
+
+Brownies_label = Label(pasteries_frame, text="Brownies", font=("times new roman,", 10, "bold"), bg="gray25"
+                       , fg="white")
+Brownies_label.grid(row=3, column=0, pady=7, padx=7)
+Brownies_entry = Entry(pasteries_frame, font=("times new roman", 15, "bold"), width=8, bd=5)
+Brownies_entry.grid(row=3, column=1, pady=7, padx=7)
+
+Burger_Label = Label(pasteries_frame, text="Burger", font=("times new roman,", 10, "bold"), bg="gray25"
+                     , fg="white")
+Burger_Label.grid(row=4, column=0, pady=7, padx=7)
+Burger_entry = Entry(pasteries_frame, font=("times new roman", 15, "bold"), width=8, bd=5)
+Burger_entry.grid(row=4, column=1, pady=7, padx=7)
+
+bill_frame = Frame(products_frame)
+bill_frame.grid(row=0, column=4, padx=5, pady=5)
+
+bill_area_label = Label(bill_frame, text="Label Area", font=("times new roman", 15, "bold"), bd=8, relief=GROOVE)
+bill_area_label.pack(fill=X)
+scroll_bar = Scrollbar(bill_frame,orient=VERTICAL)
+scroll_bar.pack(side=RIGHT, fill=Y)
+
+Text_area = Text(bill_frame, height=15, width=55, yscrollcommand=scroll_bar.set)
+Text_area.pack()
+
+
 
 
 
