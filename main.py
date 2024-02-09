@@ -1,9 +1,11 @@
 from tkinter import *
-from tkinter import messagebox
+from tkinter import messagebox  #message box that shows error if a customer fails to enter his name or any other details
 import random
 bill_number = random.randint(0,1000)
 
 
+#functionality area
+#working on the bill area and the the items that are printed on it
 def bill():
     if Name_Entry.get() == '' or Phone_Entry.get() == '':
         messagebox.showerror('Error','Customer details are required')
@@ -23,7 +25,7 @@ def bill():
 
 
 
-
+#calculating the total price of all the indiviual items and the tax on the items
 def calc_total():
     jellof_rice_price = int(jellof_rice_entry.get()) * 850
     fried_rice_price = int(fried_rice_entry.get()) * 1000
@@ -85,8 +87,8 @@ def calc_total():
 
 
 
-
-
+#GUI part
+#designing the various labels ,frames ,entries and buttons on the user interface
 windows = Tk()
 windows.title("Restaurant billing system")
 windows.geometry("1250x700")
