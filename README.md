@@ -1,4 +1,3 @@
-
 <img width="936" alt="Screenshot 2024-02-07 145637" src="https://github.com/Frank-Ezeudu/billing-system-project-for-cos_101/assets/149905733/77106c6e-d136-4964-84eb-92c1241f8d7a">
 
                                                                       Introduction
@@ -31,7 +30,8 @@ Customer Relationship Management (CRM): Incorporating CRM functionalities could 
 
 In conclusion, the Restaurant Billing System offers a comprehensive solution to the traditional challenges of restaurant billing processes. While there are considerations to be mindful of, such as hardware dependencies and training requirements, the system's benefits in efficiency, accuracy, and customer service significantly outweigh these limitations. With the prospect of future updates addressing these challenges and adding new functionalities, the system is well-positioned to remain relevant and valuable to the restaurant industry.
 
-Developers:
+  Developers:
+
 Ezeudu frank chisom- BHU/23/04/05/0069
 Okpanachi Simon- BHU/23/04/09/0084
 David Gift- BHU/23/04/05/0053
